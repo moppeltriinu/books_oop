@@ -29,6 +29,7 @@ class LS {
         return data
     }
 
+
     setData(name, data){
         localStorage.setItem(name, JSON.stringify(data))
     }
